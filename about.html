@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-
+        scale=1">
+        <title>About Us - Lambton Driving School</title>
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.css">
+
+    </head>
+    <body>
+        <section class="sub-header" style="background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/about_us.jpeg);">
+            <nav>
+                <a href="index.html"><img src="images/logonew.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#" style="color:gold;">About</a></li>
+                        <li><a href="course.html">Courses</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+
+            </nav>
+                <h1>About Us</h1>
+        </section>
+
+        <!-- About Us content-->
+        <section class="about-us">
+
+            <div class="row">
+                <div class="about-col">
+                    <h1>We are Ontario's Largest Driving School</h1>
+                    <p>Lambton Driving School has been a pioneer in providing training in the field of driving since (year). We at Lambton driving school provide affordable, Effective and Convenient driving lessons. Our Mission is to develop safe driving skills. We have informative and interactive courses that you can undertake. <br><br> We provide a reputable and professional service that aims to present you the confidence to pass your test and drive safely on any kinds of roads. Due to COVID-19 situation we sanitize our cars. We have successfully trained 15,000+ beginners into skilled and confident drivers.
+                        Here’s what you can expect as a student of Lambton Driving School:
+                        <div class="about-list">
+                            <ul>
+                                <li>Professional Training Instructors</li>
+                                <li>Theoretical Sessions and Simulator classes</li>
+                                <li>Practical Sessions</li>
+                            </ul> 
+
+                        </div>
+                  
+                           
+                        </p>
+                    <a class="hero-btn red-btn" href="course.html">EXPLORE NOW</a>
+                </div>
+
+                <div class="about-col">
+                    <img src="images/R.jfif">
+                </div>
+            </div>
+        </section>
+
+
+
+  
+
+        <!-- Footer-->
+        <section class="footer">
+            <h4>Lambton Driving School</h4>
+            <p>265 Yorkland Blvd #400, North York, ON M2J 1S5, Canada</p>
+            <p>Follow us</p>
+            <div class="icons">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+            <p>&copy;2021 Group 3</p>
+        </section>
+
+        <!--- script for mobile-hamburger navbar -->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>

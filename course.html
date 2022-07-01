@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-
+        scale=1">
+        <title>Courses - Lambton Driving School</title>
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.css">
+
+    </head>
+    <body>
+        <section class="sub-header" style="background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/course_banner.jpg);">
+            <nav>
+                <a href="index.html"><img src="images/logonew.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#" style="color:gold;">Courses</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+
+            </nav>
+                <h1>Our Courses</h1>
+        </section>
+
+                <!-- Course-->
+                <section class="course">
+                    <h1>Courses We offer</h1>
+                    <p>Training curriculum that can boost your confidence in driving</p>
+        
+                    <div class="row">
+                        <div class="course-col">
+                            <h3>Basic Driving skills</h3>
+                            <p>This course is for the people who have never taken control of the steering wheel. It will help you to familiarize yourself with basic traffic rules. You will get an idea about ABC of driving (Accelerator, Brakes, Clutch) through keen observing and keeping patience while learning.</p>
+                        </div>
+                        <div class="course-col">
+                            <h3>Standard Driving</h3>
+                            <p>Work on your foot-skills (Accelerator, Brakes, Clutch) and with time you will get habituated for steering a car. After completing this course, you can directly apply for your permanent driving license in Canada.</p>
+                        </div>
+                        <div class="course-col">
+                            <h3>Advanced Driving</h3>
+                            <p>Our long driving tracks, VR Simulators, and professional drivers will help you to overcome your fear about losing control of the car while driving. You will experience exposure therapy regularly until you feel confident holding the steering wheel.</p>
+                        </div>
+                    </div>
+                </section>
+
+        <!-- facilities-->
+        <section class="facilities">
+            <h1>Our State Of The Art facilities</h1>
+            <p>Equipment for your safety and for your comfort</p>
+
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="images/track.jpg">
+                    <h3>Long Length driving track</h3>
+                    <p>The length of driving track is around 40-45 meters and width is about 10 feet. Practicing on our drive track is same as the track that you will drive on the test date and thus helps us testing our student's ability to drive.</p>
+                </div>
+
+                    <div class="facilities-col">
+                        <img src="images/oculus_2.jpg">
+                        <h3>VR Driving Simulation</h3>
+                        <p>A dummy that can act as a substitute of real driving experience before going directly on roads and thus, much more safer and cheaper way to learn driving.</p>
+                    </div>
+
+                <div class="facilities-col">
+                    <img src="images/safe_cars.jpg">
+                    <h3>Well maintained and safe vehicles</h3>
+                    <p>All our vehicles and equipment’s are of latest model and are insured. Be rest assured that you are safe when you're on the road. In the light of the COVID-19 pandemic, After every practical session our cars are sanitized as a precaution to reduce spreading of any diseases.</p>
+                </div>
+            </div>
+
+        </section>    
+ 
+
+        <!-- Footer-->
+        <section class="footer">
+            <h4>Lambton Driving School</h4>
+            <p>265 Yorkland Blvd #400, North York, ON M2J 1S5, Canada</p>
+            <p>Follow us</p>
+            <div class="icons">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+            <p>&copy;2021 Group 3</p>
+        </section>
+
+        <!--- script for mobile-hamburger navbar -->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>
